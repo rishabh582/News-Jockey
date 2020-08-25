@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+.navMe {
+  background-color: beige;
+}
+.title1 {
+  background-color: beige;
+  text-align: center;
+  height: 25vh;
+}
+.head1 {
+  font-size: 3.5em;
+  padding-top: 2vh;
+}
+.subHead1 {
+  font-size: 1.3em;
+  padding-top: 1vh;
+}
+.cardMe {
+  /* width: 30%; */
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+.options {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 3vh;
+  height: 25vh;
+}
+.choose {
+  text-align: left;
+  font-size: 2em;
+  font-weight: 500;
+}
+.edit {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: #a69b9a;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #eb6154;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+.navcss {
+  background-color: rgb(4, 50, 63);
+}

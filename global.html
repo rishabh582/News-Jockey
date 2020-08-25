@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>NEWS JOCKEY</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/materialize.min.css">
+		<link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		  
+		<style type="text/css">
+			#loader {
+				height: 100vh;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+	
+			}
+	
+			.progress {
+				display: none;
+			}
+	
+			.errorMsg {
+				font-size: 34px;
+				height: 100vh;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+			}
+			.row-header {
+		margin: 0px auto;
+		padding: 0px auto;
+	}
+	.row-content {
+		margin: 0px auto;
+		padding: 50px 0px 50px 0px;
+		border-bottom: 1px ridge;
+		min-height: 400px;
+	}
+	
+	.footer{
+			
+			margin:0px auto;
+			padding: 20px 0px 20px 0px;
+			
+		}
+		.jumbotron {
+			padding:70px 30px 70px 30px;
+			margin:0px auto;
+		}
+		
+		.address{
+			font-size:80%;
+			margin:0px;
+			
+		}
+		body {
+			padding: 50px 0px 0px 0px;
+			z-index: 0;
+		}
+			.thin-green-border{
+			border-color: rgb(212, 88, 18);
+			border-width: 5px;
+			border-style: solid; 
+			border-radius: 50%;
+			margin: 0px;
+			box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.19), 10px 10px 20px rgba(0, 0, 0, 0.63);
+			}
+			.thin-green-border-logo{
+			border-color: rgb(212, 88, 18);
+			border-width: 1px;
+			border-style: solid; 
+			border-radius: 50%;
+			margin: 0px;
+			box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.19), 10px 10px 20px rgba(0, 0, 0, 0.23);
+			}
+			.uperb {
+			background-color: rgb(20,20,20);
+			box-shadow: 10px 30px 40px rgba(4, 50, 63, 0.40), 10px 10px 20px rgba(4, 50, 63, 1);
+			
+			
+	  }
+			
+	  .navcss {
+	background-color: rgb(4, 50, 63);
+	
+	
+	
+	  }
+	  h1 {
+		  color: floralwhite;
+		  position: relative;
+		  padding-top: 40px;
+	  }
+	  h4 {
+		  text-align: center;
+		  font-size: 50px;
+		  margin: 30px;
+		  font-family: "Lucida Console", Courier, monospace;
+		  color: rgb(4, 50, 63);
+	  }
+			
+		</style>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-sm fixed-top navcss">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="./home.html" ><img class="thin-green-border-logo"  src="./newsj.jpg" width="60" height="60"></a>
+				<div class="collapse navbar-collapse" id="Navbar">
+				<ul>
+	<li class="nav-item "><a class="nav-link" href="./home.html"><span class="fa fa-home fa-lg"></span> HOME</a></li>
+	<li class="nav-item "><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> ABOUT</a></li>
+	<li class="nav-item "><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg"></span> CONTACT</a></li>
+	<li class="nav-item "><a class="nav-link" href="./categories.html"><span class="fa fa-list fa-lg"></span> CATEGORIES</a></li>
+	<li class="nav-item "><a class="nav-link" href="./index.html"><span class="fa fa-user fa-lg"></span> LOGIN / SIGNUP</a></li>
+	<li class="nav-item "><a class="nav-link" href="./dashboard.html"><span class="fa fa-laptop fa-lg"></span> DASHBOARD</a></li>
+				</ul>
+			</div>
+				</div>
+		</nav>
+		<header class="jumbotron uperb" style="background-image: url('./glo.jpg'); background-size: 100%;" >
+			<div class="container ">
+				<div class="row row-header">
+					
+					<div class="col-12 col-md-5 justify-content-center">
+						<h1 style="font-size: 100px ;">Global</h1>
+						<p style="font-size: 20px; text-align: center;" ></p>
+					</div>
+					<div class="col-12 col-md-5">
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+	<div class="container">
+		<h4></h4>
+		<div class="row">
+			<div id="newsResults"></div>
+		</div>
+
+		<div id="loader">
+			<div class="progress">
+				<div class="indeterminate"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/app_global.js"></script>
+</body>
+<footer class="footer">
+    
+	<div class="row justify-content-center">             
+		 <div class="col-auto">
+			 <p>© Copyright 2020 news Jockey</p>
+		 </div>
+	</div>
+ </div>
+</footer>
+
+</html>

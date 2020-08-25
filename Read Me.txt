@@ -1,0 +1,11 @@
+HOW TO RUN THE PROJECT
+1. USE XAMPP SOFTWARE FOR LOCALLY HOSTING THE WEBSITE
+2. UNZIP THE FILE AND COPY THE FOLDER TO xampp>htdocs.
+3. Open phymyadmin 
+4. Create a database with name my db
+5. In mydb database create table with name signup
+6. In the table signup create
+7. 5 entries
+8. id, username, email, password, to_date
+9. Set id as primary key
+3. NOW OPEN YOUR WEB BROWSER AND TYPE http://localhost/NewsJockey/home.html.
